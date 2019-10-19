@@ -1,0 +1,31 @@
+instalar vscode, phpintellisense
+instalar xamp
+instalar composer
+instalar lumen : composer global require "laravel/lumen-installer"
+crear proyecto lumen: lumen new demo
+crear y configurar el .env
+configurar el bootstrap/app.php y descomentar withfacades and witheloquent
+
+crear la tabla usuario con migraciones - php artisan make:migration [create_users_table]
+// la function up es la que ejecuta la migracion, $table->[tipo de tabla]([nombre tabla])
+email ->unique()->notNullable();
+password
+//crear grupos de prefijos
+$router->group(['prefix' -> [nombre prefijo]], function () use ($router){
+
+})
+
+//Modificar el modelo y crear AuthController
+//Imports 
+use Illuminate\Http\Request:
+use *;
+//validaciones
+$this->validate([array], [
+	'nombre' => 'validacion'
+])
+
+//Respuestas
+
+return response()->json([])
+
+

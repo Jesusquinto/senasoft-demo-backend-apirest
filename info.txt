@@ -1,0 +1,16 @@
+instalar vscode, phpintellisense
+instalar xamp
+instalar composer
+instalar lumen : composer global require "laravel/lumen-installer"
+
+importar el sql en phpmyadmin
+correr el backend así : php -S localhost:5000 -t public
+
+y probar rutas get en navegador o postman o donde sea:
+localhost:5000/demo/productos
+localhost:5000/demo/almacenes
+localhost:5000/demo/productosalmacenes
+
+relaciones explicitas en los modelos(carpeta app)
+controladores en la carpeta http/controllers
+y rutas en la carpetaraiz (routes/web.php)
